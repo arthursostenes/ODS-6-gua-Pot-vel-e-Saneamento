@@ -10,11 +10,16 @@
 
   <header>
     <h1>ODS 6 – Água Potável e Saneamento</h1>
-    <p>Garantir disponibilidade e gestão sustentável da água e do saneamento para todos</p>
+    <nav>
+      <button onclick="scrollToSection('sobre')">Sobre</button>
+      <button onclick="scrollToSection('metas')">Metas</button>
+      <button onclick="scrollToSection('importancia')">Importância</button>
+      <button onclick="scrollToSection('como')">Como Contribuir</button>
+    </nav>
   </header>
 
   <main>
-    <section>
+    <section id="sobre">
       <h2>O que é a ODS 6?</h2>
       <p>
         A ODS 6 faz parte da Agenda 2030 da ONU e tem como objetivo assegurar a disponibilidade
@@ -22,31 +27,31 @@
       </p>
     </section>
 
-    <section>
+    <section id="metas">
       <h2>Metas da ODS 6</h2>
       <ul>
-        <li>Atingir acesso universal e equitativo à água potável segura e acessível até 2030.</li>
-        <li>Melhorar a qualidade da água reduzindo a poluição e eliminando despejos inadequados.</li>
-        <li>Aumentar a eficiência do uso da água em todos os setores.</li>
-        <li>Assegurar a participação das comunidades locais na gestão da água e saneamento.</li>
+        <li>Atingir acesso universal à água potável segura até 2030.</li>
+        <li>Reduzir a poluição hídrica e melhorar a qualidade da água.</li>
+        <li>Aumentar a eficiência do uso da água.</li>
+        <li>Promover a gestão participativa da água e do saneamento.</li>
       </ul>
     </section>
 
-    <section>
+    <section id="importancia">
       <h2>Importância do Saneamento</h2>
       <p>
-        O saneamento básico é essencial para a saúde pública e para a dignidade humana.
-        Ele previne doenças, protege o meio ambiente e contribui para o desenvolvimento social e econômico.
+        O saneamento previne doenças, protege o meio ambiente e promove o desenvolvimento social.
+        Investir nisso é investir em saúde, educação e dignidade.
       </p>
     </section>
 
-    <section>
+    <section id="como">
       <h2>Como contribuir?</h2>
       <p>
-        - Economize água nas tarefas diárias.<br>
-        - Apoie projetos e políticas públicas voltadas ao saneamento.<br>
-        - Conscientize outras pessoas sobre a importância da ODS 6.<br>
-        - Evite o desperdício e contaminação da água.
+        ✔️ Economize água<br>
+        ✔️ Não jogue lixo em rios e bueiros<br>
+        ✔️ Divulgue informações sobre a ODS 6<br>
+        ✔️ Apoie políticas públicas sustentáveis
       </p>
     </section>
   </main>
@@ -55,8 +60,7 @@
     <p>Site educativo sobre os Objetivos de Desenvolvimento Sustentável - ODS 6</p>
   </footer>
 
-  <!-- Botão de Voltar ao Topo -->
-  <button id="btnTopo" title="Voltar ao topo">↑ Topo</button>
+  <button id="btnTopo" title="Voltar ao topo">↑</button>
 
   <script src="script.js"></script>
 </body>
