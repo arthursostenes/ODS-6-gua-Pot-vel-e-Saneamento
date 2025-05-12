@@ -1,16 +1,17 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #ffffff; /* fundo branco */
+  color: #1a1a1a;
   scroll-behavior: smooth;
 }
 
 header {
-  background-color: #e0e0e0;
+  background-color: #002b5c; /* azul escuro */
+  color: white;
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 4px solid #f9c900; /* amarelo */
 }
 
 header h1 {
@@ -23,17 +24,18 @@ nav {
 
 nav button {
   margin: 5px;
-  padding: 8px 16px;
-  background-color: #ccc;
-  color: #000;
+  padding: 10px 18px;
+  background-color: #f9c900; /* amarelo */
+  color: #002b5c; /* azul escuro no texto */
   border: none;
   border-radius: 5px;
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 nav button:hover {
-  background-color: #bbb;
+  background-color: #e6b800;
 }
 
 main {
@@ -48,6 +50,7 @@ section {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
   transition: transform 0.3s;
+  border-left: 6px solid #002b5c; /* faixa azul escuro na lateral */
 }
 
 section:hover {
@@ -55,18 +58,23 @@ section:hover {
 }
 
 h2 {
-  color: #222;
+  color: #002b5c;
+}
+
+ul li::marker {
+  color: #f9c900; /* marcador amarelo */
 }
 
 footer {
-  background-color: #e0e0e0;
+  background-color: #002b5c;
   text-align: center;
   padding: 15px;
   font-size: 14px;
-  color: #555;
-  border-top: 2px solid #ccc;
+  color: white;
+  border-top: 4px solid #f9c900;
 }
 
+/* Botão flutuante */
 #btnTopo {
   display: none;
   position: fixed;
@@ -75,8 +83,8 @@ footer {
   z-index: 100;
   font-size: 18px;
   border: none;
-  background-color: #ccc;
-  color: #000;
+  background-color: #f9c900; /* amarelo */
+  color: #002b5c;
   padding: 12px;
   border-radius: 50%;
   cursor: pointer;
@@ -84,5 +92,5 @@ footer {
 }
 
 #btnTopo:hover {
-  background-color: #aaa;
+  background-color: #e6b800;
 }
